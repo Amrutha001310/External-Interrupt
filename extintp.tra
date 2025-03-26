@@ -1,0 +1,22 @@
+*** Creating Trace Output File 'extintp.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"ext.o"'
+### List of Objects: adding '"main.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "ext.o" "main.o" 
+--strict --scatter "extintp.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\extintp.map" -o extintp.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'extintp.axf'
+### ADS-LD Command File: 'extintp.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'extintp.lnp', Handle=0x0000073C
+### Writing '.lnp' file
+### ADS-LD Command file 'extintp.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
